@@ -1,0 +1,30 @@
+{
+  "name": "new_dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^5.0.0",
+    "next": "14.0.0",
+    "openzeppelin-contracts": "^4.0.0",
+    "openzeppelin-solidity": "github:OpenZeppelin/openzeppelin-contracts",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.3.3",
+    "autoprefixer": "^10",
+    "ethers": "^6.8.0",
+    "hardhat": "^2.18.3",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
